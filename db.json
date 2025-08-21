@@ -1,0 +1,193 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Izabela Naves",
+      "email": "navesizabela@gmail.com",
+      "senha": "senha123",
+      "favoritos": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Lucca Pellegrini",
+      "email": "lucca@verticordia.com",
+      "senha": "senha321",
+      "favoritos": [
+        5
+      ]
+    }
+  ],
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "Duna: Parte Dois",
+      "diretor": "Denis Villeneuve",
+      "elenco": [
+        "Timothée Chalamet",
+        "Zendaya",
+        "Rebecca Ferguson"
+      ],
+      "ano": 2024,
+      "genero": "Ficção Científica/Épico",
+      "duracao": "166 min",
+      "classificacao": "14",
+      "sinopse": "Paul Atreides une-se a Chani e aos Fremen em uma jornada para vingar a traição contra sua família. Enquanto enfrenta inimigos políticos e a ecologia hostil de Arrakis, Paul deve decidir entre o amor e o destino da galáxia.",
+      "destaque": true,
+      "avaliacao": 4.9,
+      "premios": [
+        "Oscar de Melhores Efeitos Visuais 2025"
+      ],
+      "imagem_principal": "img/duna2-poster.jpg",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "img/duna2-cena1.webp",
+          "descricao": "Paul e Chani no deserto"
+        },
+        {
+          "id": 2,
+          "src": "img/duna2-cena2.webp",
+          "descricao": "Baalha dos Fremen contra os Sardtaukar"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Oppenheimer",
+      "diretor": "Christopher Nolan",
+      "elenco": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Robert Downey Jr."
+      ],
+      "ano": 2023,
+      "genero": "Drama Histórico/Biográfico",
+      "duracao": "180 min",
+      "classificacao": "16",
+      "sinopse": "Oppenheimer é um filme histórico de drama dirigido por Christopher Nolan e baseado no livro biográfico vencedor do Prêmio Pulitzer, Prometeu Americano: O Triunfo e a Tragédia de J. Robert Oppenheimer, escrito por Kai Bird e Martin J. Sherwin. Ambientado na Segunda Guerra Mundial, o longa acompanha a vida de J. Robert Oppenheimer (Cillian Murphy), físico teórico da Universidade da Califórnia e diretor do Laboratório de Los Alamos durante o Projeto Manhattan - que tinha a missão de projetar e construir as primeiras bombas atômicas. A trama acompanha o físico e um grupo formado por outros cientistas ao longo do processo de desenvolvimento da arma nuclear que foi responsável pelas tragédias nas cidades de Hiroshima e Nagasaki, no Japão, em 1945.",
+      "destaque": true,
+      "avaliacao": 4.8,
+      "premios": [
+        "Oscar de Melhor Filme 2024",
+        "Globo de Ouro de Melhor Diretor"
+      ],
+      "imagem_principal": "img/oppenheimer-poster.jpg",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "img/oppenheimer-cena1.webp",
+          "descricao": "Oppenheimer e Einstein"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Interestelar",
+      "diretor": "Christopher Nolan",
+      "elenco": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain"
+      ],
+      "ano": 2014,
+      "genero": "Ficção Científica/Aventura",
+      "duracao": "169 min",
+      "classificacao": "12",
+      "sinopse": "Um grupo de astronautas viaja através de um buraco de minhoca em busca de um novo lar para a humanidade, enquanto enfrentam dilemas sobre tempo, amor e sobrevivência.",
+      "destaque": false,
+      "avaliacao": 4.7,
+      "premios": [
+        "Oscar de Melhores Efeitos Visuais 2015"
+      ],
+      "imagem_principal": "img/interestelar-poster.jpg",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "img/interestelar-cena1.webp",
+          "descricao": "Cooper e Murph "
+        },
+        {
+          "id": 2,
+          "src": "img/interestelar-cena2.webp",
+          "descricao": "Planeta de Miller"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Star Wars: Episódio III - A Vingança dos Sith",
+      "diretor": "George Lucas",
+      "elenco": [
+        "Ewan McGregor",
+        "Hayden Christensen",
+        "Natalie Portman",
+        "Ian McDiarmid"
+      ],
+      "ano": 2005,
+      "genero": "Ficção Científica/Épico",
+      "duracao": "140 min",
+      "classificacao": "12",
+      "sinopse": "A Guerra dos Clones atinge seu ápice enquanto Anakin Skywalker sucumbe ao Lado Sombrio, tornando-se Darth Vader. Obi-Wan Kenobi enfrenta seu antigo aprendiz em um duelo lendário que definirá o destino da galáxia.",
+      "destaque": true,
+      "avaliacao": 4.8,
+      "premios": [
+        "Indicação ao Oscar de Melhor Maquiagem (2006)"
+      ],
+      "imagem_principal": "img/starwars-poster.jpg",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "img/starwars-cena1.jpg",
+          "descricao": "Duelo entre Obi-Wan e Anakin em Mustafar"
+        },
+        {
+          "id": 2,
+          "src": "img/starwars-cena2.webp",
+          "descricao": "Anakin Skywalker, já seduzido pelo lado sombrio"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "O Poderoso Chefão",
+      "diretor": "Francis Ford Coppola",
+      "elenco": [
+        "Marlon Brando",
+        "Al Pacino",
+        "Robert Duvall"
+      ],
+      "ano": 1972,
+      "genero": "Drama/Crime",
+      "duracao": "175 min",
+      "classificacao": "18",
+      "sinopse": "A saga da família Corleone, liderada por Don Vito, e a transformação de Michael de relutante herdeiro em implacável líder da máfia.",
+      "destaque": true,
+      "avaliacao": 4.9,
+      "premios": [
+        "Oscar de Melhor Filme 1973"
+      ],
+      "imagem_principal": "img/chefao-poster.jpg",
+      "imagens_complementares": [
+        {
+          "id": 1,
+          "src": "img/chefao-cena1.webp",
+          "descricao": "Don Corleone em seu escritório"
+        },
+        {
+          "id": 2,
+          "src": "img/chefao-cena2.webp",
+          "descricao": "Batismo e assassinatos (cena icônica)"
+        }
+      ]
+    }
+  ],
+  "autor": {
+    "nome": "Izabela Naves",
+    "matricula": 859563,
+    "descricao": "Meu nome é Izabela Naves, sou aluna do 2º período de Engenharia de Computação na PUC Minas – Lourdes. Este projeto foi desenvolvido para a disciplina de Desenvolvimento Web, onde tivemos que criar um site. Como sou apaixonada por filmes, decidi montar um catálogo de filmes, reunindo títulos e informações de forma simples e visualmente atrativa.",
+    "foto_perfil": "img/perfil.jpg"
+  }
+}

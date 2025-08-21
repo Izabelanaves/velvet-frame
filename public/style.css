@@ -1,0 +1,233 @@
+/* --- ESTILO BASE PERSONALIZADO --- */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #b22222;
+}
+
+/* --- NAV CUSTOM --- */
+
+.navbar {
+    background: linear-gradient(90deg, #7b1e1e, #330000);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #b22222 !important;
+}
+
+/* --- SEÇÕES --- */
+
+section {
+    padding: 60px 20px;
+    background-color: #1c1c1c;
+}
+
+section h2 {
+    border-bottom: 2px solid #b22222;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+/* --- CARD DE FILME --- */
+
+.card.bg-dark {
+    border: 1px solid #b22222;
+    box-shadow: 0 0 20px rgba(178, 34, 34, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.bg-dark:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(178, 34, 34, 0.4);
+}
+
+.card-img-top {
+    border-bottom: 1px solid #b22222;
+}
+
+/* --- FILME EM DESTAQUE --- */
+
+.filme-destaque {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(178, 34, 34, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.filme-destaque img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    aspect-ratio: 2 / 3; /* força uma proporção consistente */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(178, 34, 34, 0.3);    
+}
+
+.filme-destaque .descricao {
+    text-align: center;
+}
+
+.filme-destaque .descricao h3 {
+    color: #b22222;
+}
+
+/* --- RESPONSIVO DE FILME EM DESTAQUE --- */
+@media (min-width: 900px) {
+    .filme-destaque {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .filme-destaque .descricao {
+        text-align: left;
+    }
+}
+@media (max-width: 768px) {
+    .filme-destaque .row {
+        flex-direction: column;
+    }
+    
+    .carousel-inner .row {
+        flex-direction: column;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* --- FORMULÁRIO CUSTOMIZADO --- */
+
+form input.form-control {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #a94444;
+}
+
+form input.form-control:focus {
+    outline: none;
+    border-color: #b22222;
+    box-shadow: 0 0 5px #b22222;
+}
+
+form .form-label {
+    color: #d88;
+}
+
+form .btn-danger {
+    background-color: #b22222;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+form .btn-danger:hover {
+    background-color: #7b1e1e;
+}
+
+/* --- FOOTER --- */
+
+footer {
+    background-color: #330000;
+    color: #e6a9a9;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    border-top: 2px solid #7b1e1e;
+}
+
+/* --- CARROSSEL --- */
+.carousel {
+    background-color: #1c1c1c; /* Cor de fundo escura */
+    border-radius: 10px; /* Bordas arredondadas para o carrossel */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.carousel-inner {
+    background-color: #1c1c1c; /* Cor de fundo escura para o contêiner interno */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.carousel-item {
+    color: #e0e0e0; /* Cor do texto dentro do carrossel */
+    background-color: #1c1c1c; /* Cor de fundo escura para cada item */
+}
+
+/* --- CORREÇÃO PARA FILME EM DESTAQUE --- */
+.filme-destaque {
+    background-color: #1e1e1e !important; /* Fundo mais opaco */
+    color: #e0e0e0 !important; /* Corrige texto branco */
+    backdrop-filter: blur(5px); /* Efeito de vidro fosco */
+    border: 1px solid #b22222 !important;
+}
+
+.filme-destaque h3,
+.filme-destaque h2,
+.filme-destaque p {
+    color: inherit !important; /* Respeita a hierarquia */
+}
+
+/* Melhoria para conteúdo do carrossel */
+.carousel-item .row {
+    color: #e0e0e0; /* Garante legibilidade */
+}
+
+.carousel-item h3 {
+    color: #b22222 !important; /* Destaca títulos */
+}
+
+/* Estilos para a página de login */
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.card {
+    border: 1px solid #b22222;
+    box-shadow: 0 0 20px rgba(178, 34, 34, 0.2);
+}
+
+.card h2 {
+    color: #b22222;
+}
+
+.form-control {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #a94444;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #b22222;
+    box-shadow: 0 0 5px #b22222;
+}
+
+.btn-danger {
+    background-color: #b22222;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #7b1e1e;
+}

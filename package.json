@@ -1,0 +1,24 @@
+{
+  "name": "velvet-frame",
+  "version": "0.0.0",
+  "description": "Trabalho prático de DIW",
+  "homepage": "https://github.com/Izabelanaves/os-melhores-filmes-by-Izabela-Naves#readme",
+  "bugs": {
+    "url": "https://github.com/Izabelanaves/os-melhores-filmes-by-Izabela-Naves/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izabelanaves/os-melhores-filmes-by-Izabela-Naves.git"
+  },
+  "license": "ISC",
+  "author": "Izabela Naves",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
